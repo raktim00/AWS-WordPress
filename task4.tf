@@ -319,4 +319,4 @@ depends_on = [
 	provisioner "local-exec" {
 	    command = "chrome  ${aws_instance.Wordpress.public_ip}"
   	}
-
+}
